@@ -1,15 +1,16 @@
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Before;
 import org.junit.Test;
 
 public class TestHelloWorld {
-	private HelloWorld subject=new  HelloWorld() ;
+	private HelloWorld subject;
 	
-	/*@Before
+	@Before
 	public void setup() {
 		subject= new HelloWorld();
 	}
-	@Test
+	/*@Test
 	public void testGetMessage(){
 		assertEquals( "Hello World", subject.getMessage(null));
 	}
